@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mich561d/CA3_TTT.svg?branch=master)](https://travis-ci.org/mich561d/CA3_TTT)
+[![Build Status](https://travis-ci.org/mich561d/UsingQuickStart.svg?branch=master)](https://travis-ci.org/mich561d/UsingQuickStart)
 
 # CA3 - The Turtle Troopers
 
