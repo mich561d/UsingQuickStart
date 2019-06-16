@@ -11,7 +11,7 @@ import com.nimbusds.jose.crypto.MACSigner;
 import com.nimbusds.jwt.JWTClaimsSet;
 import com.nimbusds.jwt.SignedJWT;
 import entity.User;
-import entity.UserFacade;
+import facade.UserFacade;
 import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;

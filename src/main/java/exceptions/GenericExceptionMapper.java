@@ -73,6 +73,12 @@ public class GenericExceptionMapper implements ExceptionMapper<Throwable> {
     }
 
     private Response.StatusType getStatusType(Throwable ex) {
+        if (ex instanceof InputException) {
+            return Response.Status.BAD_REQUEST;
+        }
+        if (ex instanceof HistoryException) {
+            return Response.Status.NO_CONTENT;
+        }
         if (ex instanceof WebApplicationException) {
             return ((WebApplicationException) ex).getResponse().getStatusInfo();
         }

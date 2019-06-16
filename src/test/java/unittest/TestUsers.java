@@ -1,7 +1,7 @@
 package unittest;
 
 import entity.User;
-import entity.UserFacade;
+import facade.UserFacade;
 import exceptions.AuthenticationException;
 import javax.persistence.EntityManagerFactory;
 import org.junit.AfterClass;
